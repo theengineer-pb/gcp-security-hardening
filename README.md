@@ -108,7 +108,7 @@ gcp-security-hardening/
 Default GCP VPC auto-creates subnets in all regions with permissive rules. Custom VPC gives explicit control over every subnet and firewall rule.
 
 **Why /32 for SSH?**
-Restricts SSH access to a single admin IP, eliminating brute force attack surface entirely.
+Because it restricts SSH access to a single admin IP, eliminating brute force attack surface entirely.
 
 **Why automated IAM response vs manual?**
 Manual response to IAM threats averages 4+ hours. Automated response brings this to under 35 seconds, dramatically limiting attacker dwell time.
