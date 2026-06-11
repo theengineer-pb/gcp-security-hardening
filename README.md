@@ -89,6 +89,7 @@ Scanned all Terraform code with Checkov v3.3.0:
 
 ## Project Structure
 
+```
 gcp-security-hardening/
 ├── vpc/                    # VPC, subnets, firewall rules
 ├── cloud-armor/            # WAF security policy, load balancer
@@ -99,6 +100,7 @@ gcp-security-hardening/
 │       ├── main.py         # Automated response logic
 │       └── requirements.txt
 └── README.md
+```
 
 ## Key Security Decisions
 
