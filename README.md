@@ -4,7 +4,7 @@ A production-grade cloud security implementation on Google Cloud Platform demons
 
 ## Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](architecture.svg)
 
 ## Project Overview
 
