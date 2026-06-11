@@ -1,0 +1,18 @@
+# Terraform state files - contains sensitive resource IDs
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Terraform variables - may contain sensitive values
+*.tfvars
+
+# Terraform working directory
+**/.terraform/
+*.zip
+
+# GCP credentials
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
